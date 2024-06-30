@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'milkyway': "url('./src/assets/Milky Way 09_01_2022.png')",
+      }
+    },
   },
   plugins: [],
 }
