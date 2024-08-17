@@ -19,7 +19,7 @@ function NavBar() {
         <ul className="flex justify-center list-none m-0">
           <button>
             <li className="bg-transparent text-base text-white flex justify-center mt-10 mr-10">
-              <NavLink to={`/`} className="block px-4 text-center">Home</NavLink>
+              <NavLink to={`/astro-website/`} className="block px-4 text-center">Home</NavLink>
             </li>
           </button>
           <div onMouseEnter={setHoverTrue} onMouseLeave={setHoverFalse} className="flex flex-col">
@@ -31,9 +31,9 @@ function NavBar() {
             </button>
             {isOpen ? 
               <div className="bg-gray-500 rounded-lg py-2 self-start w-max absolute mt-16">
-                <NavLink to={`/astrophotography/nebulae`} className="block px-4 py-2 text-center">Nebulae</NavLink>
-                <NavLink to={`/astrophotography/galaxies`} className="block px-4 py-2 text-center">Galaxies</NavLink>
-                <NavLink to={`/astrophotography/other_objects`} className="block px-4 py-2 text-center">Other Objects</NavLink>
+                <NavLink to={`/astro-website/astrophotography/nebulae`} className="block px-4 py-2 text-center">Nebulae</NavLink>
+                <NavLink to={`/astro-website/astrophotography/galaxies`} className="block px-4 py-2 text-center">Galaxies</NavLink>
+                <NavLink to={`/astro-website/astrophotography/other_objects`} className="block px-4 py-2 text-center">Other Objects</NavLink>
               </div> : 
               <div></div>
             }
