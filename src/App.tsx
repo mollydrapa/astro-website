@@ -1,13 +1,10 @@
-import Galaxies from './Astrophotography/Galaxies'
+import MainPage from "./MainPage"
 
 function App() {
 
   return (
     <>
-      {/* <MainPage /> */}
-      {/* <Nebulae /> */}
-      <Galaxies />
-      {/* <OtherObjects /> */}
+      <MainPage />
     </>
   )
 }
