@@ -11,19 +11,21 @@ import OtherObjects from './Astrophotography/Other Objects.tsx'
 const router = createBrowserRouter([
   {
     path: "/astro-website/",
-    element: <MainPage />
-  },
-  {
-    path: "/astro-website/astrophotography/nebulae",
-    element: <Nebulae />
-  },
-  {
-    path: "/astro-website/astrophotography/galaxies",
-    element: <Galaxies />
-  },
-  {
-    path: "/astro-website/astrophotography/other_objects",
-    element: <OtherObjects />
+    element: <MainPage />,
+    children: [
+      {
+        path: "/astro-website/astrophotography/nebulae",
+        element: <Nebulae />
+      },
+      {
+        path: "/astro-website/astrophotography/galaxies",
+        element: <Galaxies />
+      },
+      {
+        path: "/astro-website/astrophotography/other_objects",
+        element: <OtherObjects />
+      }
+    ]
   }
 ])
 
