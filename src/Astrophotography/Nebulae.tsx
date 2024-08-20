@@ -3,7 +3,7 @@ import Image from "./Image";
 
 function Nebulae() {
   let entries = [
-    {image: "../src/assets/2024:05:13 NGC 1976 Orion Nebula.png", title: "Great Nebula in Orion", date: "May 2024", source:"NSO", filters: "Red Light, Green Light, Blue Light", self: false},
+    {image: "/assets/2024:05:13 NGC 1976 Orion Nebula.png", title: "Great Nebula in Orion", date: "May 2024", source:"NSO", filters: "Red Light, Green Light, Blue Light", self: false},
     {image: "../src/assets/2023:05:15 NGC 6523 Lagoon Nebula.png", title: "Lagoon Nebula", date: "May 2023", source:"Hubble", filters:"Red Light, Green Light, Blue Light", self: false},
     {image: "../src/assets/2023:04:16 NGC 896 NGC 1027 Heart and Soul Nebulae.png", title: "Heart and Soul Nebulae", date: "April 2023", source: "Magic Lens", filters: "Hydrogen Alpha, Oxygen III, Sulphur II", self: false},
     {image: "../src/assets/2023:04:06 NGC 6888 Crescent Nebula.jpg", title: "Crescent Nebula", date: "April 2023", source: "NSO", filters: "Hydrogen Alpha, Oxygen III, Sulphur II", self: false},
