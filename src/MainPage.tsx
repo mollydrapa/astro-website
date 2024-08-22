@@ -24,14 +24,14 @@ function MainPage() {
               </p>
               <div className="flex justify-center">
                 <img
-                  src="src/assets/2023:01:16 NGC 6611 Pillars of Creation.png"
+                  src="/astro-website/2023:01:16 NGC 6611 Pillars of Creation.png"
                   className="object-cover h-96 w-192"
                 />
               </div>
             </div>
             <div className="flex pr-12">
               <img 
-                  src="src/assets/md_92122_037EMAIL.jpeg"
+                  src="/astro-website/md_92122_037EMAIL.jpeg"
                   className="object-cover"
                   style={{width: 368, height: 541}} 
               />
@@ -41,7 +41,7 @@ function MainPage() {
         <div className="flex items-center justify-evenly">
           <div className="-mr-20">
             <img 
-              src="src/assets/IMG_2957.png"
+              src="/astro-website/IMG_2957.png"
               className="object-cover"
               style={{width: 600, height: 736}}
             />
@@ -55,7 +55,7 @@ function MainPage() {
             </div>
             <div>
               <img
-                src="src/assets/IMG_2956.png"
+                src="/astro-website/IMG_2956.png"
                 className="object-cover"
                 style={{width:525, height: 397}}
               />
@@ -74,14 +74,14 @@ function MainPage() {
               </p>
             </div>
             <img
-              src="src/assets/2022:12:18 NGC 6205 Great Hercules Cluster.png"
+              src="/astro-website/2022:12:18 NGC 6205 Great Hercules Cluster.png"
               className="object-cover flex justify-center w-min"
               style={{width: 545, height: 337}}
             />
           </div>
-          <div >
+          <div>
             <img
-              src="src/assets/2022:11:04 NGC 7000 North American Nebula.png"
+              src="/astro-website/2022:11:04 NGC 7000 North American Nebula.PNG"
               className="object-cover"
               style={{width: 545, height: 564}}
             />
