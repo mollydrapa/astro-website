@@ -81,7 +81,7 @@ function MainPage() {
           </div>
           <div>
             <img
-              src="/astro-website/2022:11:04 NGC 7000 North American Nebula.PNG"
+              src="/astro-website/2022:11:04 NGC 7000 North American Nebula.png"
               className="object-cover"
               style={{width: 545, height: 564}}
             />

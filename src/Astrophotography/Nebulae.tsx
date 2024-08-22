@@ -19,7 +19,7 @@ function Nebulae() {
     {image: "/astro-website/2022:12:07 NGC 1973 NGC 1975 NGC 1977 Running Man Nebula.png", title: "Running Man Nebula", date: "December 2022", source: "NSO", filters: "Red Light, Green Light, Blue Light", self: false},
     {image: "/astro-website/2022:12:04 NGC 1973 NGC 1975 NGC 1976 NGC 1977 NGC 2023 NGC 2024 Running Man Nebula Orion Nebula Horsehead Nebula Flame Nebula.PNG", title: "Orion Nebula and Surrounding Region", date: "December 2022", source: "Magic Lens", filters: "Red Light, Green Light Blue Light, Hydrogen Alpha, Visible Light", self: false},
     {image: "/astro-website/2022:11:10 NGC 896 NGC 1027 Heart and Soul Nebulae.jpg", title: "Heart and Soul Nebulae", date: "November 2022", source: "Magic Lens", filters: "Hydrogen Alpha, Oxygen III, Sulphur II", self: false},
-    {image: "/astro-website/2022:11:04 NGC 7000 North American Nebula.PNG", title: "North American Nebula", date: "November 2022", source: "Magic Lens", filters: "Hydrogen Alpha, Oxygen III, Sulphur II", self: false},
+    {image: "/astro-website/2022:11:04 NGC 7000 North American Nebula.png", title: "North American Nebula", date: "November 2022", source: "Magic Lens", filters: "Hydrogen Alpha, Oxygen III, Sulphur II", self: false},
     {image: "/astro-website/2022:11:04 NGC 2024 Flame Nebula.jpeg", title: "Flame Nebula", date: "November 2022", source: "NSO", filters: "Red Light, Green Light, Blue Light, Hydrogen Alpha", self: false},
     {image: "/astro-website/2022:10:27 NGC 2264 Cone Nebula.jpeg", title: "Cone Nebula", date: "October 2022", source: "Magic Lens", filters: "Hydrogen Alpha, Oxygen III, Sulphur II", self: false},
     {image: "/astro-website/2022:10:15 NGC 650 Little Dumbbell Nebula.png", title: "Little Dumbbell Nebula", date: "October 2022", source: "NSO", filters: "Red Light, Green Light, Blue Light", self: false},
@@ -47,7 +47,7 @@ function Nebulae() {
     {image: "/astro-website/2020:09:14 NGC 7293 Helix Nebula.png", title: "Helix Nebula", date: "/september 2020", source: "NSO", filters: "Red Light, Green Light, Blue Light", self: false},
     {image: "/astro-website/2020:02:23 NGC 2244 Rosette Nebula.jpg", title: "Rosette Nebula", date: "February 2020", source: "NSO", filters: "Red Light, Green Light, Blue Light, Hydrogen Alpha", self: false},
     {image: "/astro-website/2020:02:22 NGC 7000 Pelican Nebula.jpg", title: "Pelican Nebula", date: "February 2020", source: "NSO", filters: "Red Light, Green Light, Blue Light, Hydrogen Alpha", self: false},
-    {image: "/astro-website/2020:02:22 NGC 1976 Orion Nebula.jpg", title: "Orion Nebula", date: "February 2022", source: "NSO", filters:"Red Light, Green Light, Blue Light", self: false}
+    {image: "/astro-website/2020-02-22 NGC 1976 Orion Nebula.jpg", title: "Orion Nebula", date: "February 2022", source: "NSO", filters:"Red Light, Green Light, Blue Light", self: false}
   ]
 
   return (
