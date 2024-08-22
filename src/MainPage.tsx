@@ -63,7 +63,7 @@ function MainPage() {
           </div>
         </div>
         <div className="flex justify-center items-center">
-          <div className="flex flex-col">
+          <div className="flex flex-col w-1/2 mr-4">
             <div>
               <h2 className="text-5xl text-white text-center pb-6">Magic Lens Photography</h2>
               <h5 className="text-white text-center">
@@ -73,13 +73,15 @@ function MainPage() {
                 To see more of his work, follow this link to his website: https://www.magiclens.net/ 
               </p>
             </div>
-            <img
-              src="/astro-website/2022-12-18 NGC 6205 Great Hercules Cluster.png"
-              className="object-cover flex justify-center w-min"
-              style={{width: 545, height: 337}}
-            />
+            <div className="flex self-center w-min" style={{width: 545, height: 337}}>
+              <img
+                src="/astro-website/2022-12-18 NGC 6205 Great Hercules Cluster.png"
+                className="object-cover"
+                style={{width: 545, height: 337}}
+              />
+            </div>
           </div>
-          <div>
+          <div style={{width: 545, height: 564}}>
             <img
               src="/astro-website/2022-11-04 NGC 7000 North American Nebula.png"
               className="object-cover"
