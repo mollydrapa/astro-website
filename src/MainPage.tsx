@@ -24,7 +24,7 @@ function MainPage() {
               </p>
               <div className="flex justify-center">
                 <img
-                  src="/astro-website/2023:01:16 NGC 6611 Pillars of Creation.png"
+                  src="/astro-website/2023-01-16 NGC 6611 Pillars of Creation.png"
                   className="object-cover h-96 w-192"
                 />
               </div>
@@ -74,14 +74,14 @@ function MainPage() {
               </p>
             </div>
             <img
-              src="/astro-website/2022:12:18 NGC 6205 Great Hercules Cluster.png"
+              src="/astro-website/2022-12-18 NGC 6205 Great Hercules Cluster.png"
               className="object-cover flex justify-center w-min"
               style={{width: 545, height: 337}}
             />
           </div>
           <div>
             <img
-              src="/astro-website/2022:11:04 NGC 7000 North American Nebula.png"
+              src="/astro-website/2022-11-04 NGC 7000 North American Nebula.png"
               className="object-cover"
               style={{width: 545, height: 564}}
             />
