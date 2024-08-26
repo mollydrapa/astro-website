@@ -14,7 +14,7 @@ function Image({image, title, date, source, filters, self}: Props) {
       <div className="self-center w-min" style={{width: 506, height: 500}}>
         <img
           src={image}
-          className="object-cover"
+          className="object-cover rounded-xl"
           style={{width: 506, height: 500}}
         />
       </div>

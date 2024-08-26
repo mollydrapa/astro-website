@@ -24,15 +24,17 @@ function MainPage() {
               </p>
               <div className="flex justify-center">
                 <img
-                  src="/astro-website/2023-01-16 NGC 6611 Pillars of Creation.png"
-                  className="object-cover h-96 w-192"
+                  src="/astro-website/2023-01-16 NGC 6611 Pillars of Creation.webp"
+                  alt="Pillars of Creation"
+                  className="object-cover h-96 w-192 rounded-xl"
                 />
               </div>
             </div>
             <div className="flex pr-12">
               <img 
-                  src="/astro-website/md_92122_037EMAIL.jpeg"
-                  className="object-cover"
+                  src="/astro-website/md_92122_037EMAIL.webp"
+                  alt="Molly Drapa"
+                  className="object-cover rounded-xl"
                   style={{width: 368, height: 541}} 
               />
             </div>
@@ -41,8 +43,9 @@ function MainPage() {
         <div className="flex items-center justify-evenly">
           <div className="-mr-20">
             <img 
-              src="/astro-website/IMG_2957.png"
-              className="object-cover"
+              src="/astro-website/IMG_2957.webp"
+              alt="Northern Skies Observatory Dome"
+              className="object-cover rounded-xl"
               style={{width: 600, height: 736}}
             />
           </div>
@@ -55,14 +58,15 @@ function MainPage() {
             </div>
             <div>
               <img
-                src="/astro-website/IMG_2956.png"
-                className="object-cover"
+                src="/astro-website/IMG_2956.webp"
+                alt="Northern Skies Observatory"
+                className="object-cover rounded-xl"
                 style={{width:525, height: 397}}
               />
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center mb-6[f'">
           <div className="flex flex-col w-1/2 mr-4">
             <div>
               <h2 className="text-5xl text-white text-center pb-6">Magic Lens Photography</h2>
@@ -75,16 +79,18 @@ function MainPage() {
             </div>
             <div className="flex self-center w-min" style={{width: 545, height: 337}}>
               <img
-                src="/astro-website/2022-12-18 NGC 6205 Great Hercules Cluster.png"
-                className="object-cover"
+                src="/astro-website/2022-12-18 NGC 6205 Great Hercules Cluster.webp"
+                alt="Great Hercules Cluster"
+                className="object-cover rounded-xl"
                 style={{width: 545, height: 337}}
               />
             </div>
           </div>
           <div style={{width: 545, height: 564}}>
             <img
-              src="/astro-website/2022-11-04 NGC 7000 North American Nebula.png"
-              className="object-cover"
+              src="/astro-website/2022-11-04 NGC 7000 North American Nebula.webp"
+              alt="North American Nebula"
+              className="object-cover rounded-xl"
               style={{width: 545, height: 564}}
             />
           </div>
