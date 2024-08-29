@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './index.css'
 
 import MainPage from './MainPage.tsx'
+import Astrophotography from './Astrophotography/Astrophotography.tsx'
 import Nebulae from './Astrophotography/Nebulae.tsx'
 import Galaxies from './Astrophotography/Galaxies.tsx'
 import OtherObjects from './Astrophotography/Other Objects.tsx'
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
     element: <MainPage />
   },
   {
+    path: "/astro-website/astrophotography",
+    element: <Astrophotography />
+  },
+  {
     path: "/astro-website/astrophotography/nebulae",
     element: <Nebulae />
   },
@@ -22,7 +27,7 @@ const router = createBrowserRouter([
     element: <Galaxies />
   },
   {
-    path: "/astro-website/astrophotography/other_objects",
+    path: "/astro-website/astrophotography/other-objects",
     element: <OtherObjects />
   }
 ])

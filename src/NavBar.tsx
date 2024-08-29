@@ -25,7 +25,7 @@ function NavBar() {
           <div onMouseEnter={setHoverTrue} onMouseLeave={setHoverFalse} className="flex flex-col">
             <button>
               <li className="bg-transparent text-base text-white flex justify-center mt-10 mr-10 hover:text-gray-500">
-                Astrophotography
+                <NavLink to={`/astro-website/astrophotography`}>Astrophotography</NavLink>
               </li>
               <i className="fa fa-caret-down"></i>
             </button>
@@ -33,7 +33,7 @@ function NavBar() {
               <div className="bg-gray-500 rounded-lg py-2 self-start w-max absolute mt-16">
                 <NavLink to={`/astro-website/astrophotography/nebulae`} className="block px-4 py-2 text-center">Nebulae</NavLink>
                 <NavLink to={`/astro-website/astrophotography/galaxies`} className="block px-4 py-2 text-center">Galaxies</NavLink>
-                <NavLink to={`/astro-website/astrophotography/other_objects`} className="block px-4 py-2 text-center">Other Objects</NavLink>
+                <NavLink to={`/astro-website/astrophotography/other-objects`} className="block px-4 py-2 text-center">Other Objects</NavLink>
               </div> : 
               <div></div>
             }
